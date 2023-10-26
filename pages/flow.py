@@ -14,7 +14,7 @@ elements = [
 
 elements.extend([{"id":i+3,"data":{"label":name },"type":"output","position": { "x": 170*i, "y": 300+i }} for i,name in enumerate(["Aravind","Manoj","Velmurugan","sridhar"])])
 elements.extend([{"id":f"e{i}-{j}","source":i,"target":j} for i,j in [(1,3),(1,4),(1,5),(1,6)]])
-flowStyles = { "height": 500,"width":1500, "background": red; }
+flowStyles = { "height": 500,"width":1500, "background": "red"; }
 
 # Create an instance of our component with a constant `name` arg, and
 # print its output value.
